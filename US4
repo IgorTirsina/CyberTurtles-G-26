@@ -1,0 +1,47 @@
+https://docs.google.com/spreadsheets/d/1iUbBEvm9x36BvPFY1ve8lre8iB9vgtK0mQ9WmIatjeY/edit?usp=sharing – click the link
+
+What to do – Deadline: June 7th
+•As a team go over the Vytrack Application
+•Change the AC of the User Story to Gherkin(check the 3rd slide) – team work
+•Create test scenarios according AC - individual work
+•Have a scenario review meeting, review all scenarios and prepare the final version of scenarios – team work
+•Assign team members to create test cases and execute those scenarios and collect evidence – individual work
+•Review test results – team work•Automate one scenarios – team work
+•Demo you manual test results and automation to your Alumni mentor – team work\
+•Interview question – check the 4th slide
+
+task
+As a truck driver I should be able to access Vehicle under Fleet module.
+
+    Scenario 1:
+    Verify that truck driver should be able to see all Vehicle information once navigate to Vehicle page.
+    Scenario 2:
+    Verify that when user click on any car on the grid , system should display general information about the car
+    Scenario 3:
+    Verify that truck driver can add Event and it should display under Activity tab and General information page as well .
+    Scenario 4:
+    Verify that Truck driver can reset the setting
+
+Interview question – tell me about you smoke test suite
+•Make sure to stick to the point
+•Have your answer planned and organized
+•Do not forget:
+    a.How many scenarios
+    b.Who creates them
+    c.Where it runs, how often it runs, how long does it take
+    d.Who decides which scenario will become part of smoke
+    e.Pass rate
+    f.Why we need it
+
+Guerkin language:
+Given we are on truck driver dashboard page
+And we are clicking on Fleet module/Vehicles
+Then we should be on "Car - Entities - System - Car - Entities - System" page
+And when we are clinking on the grid header bar menu: "Driver"
+Then we should see that the car list got rearranged on the screen
+When we are clinking on : Reset Button
+Then we should see the page came to original/default settings
+
+
+
+
